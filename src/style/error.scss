@@ -1,0 +1,25 @@
+section{
+    display: flex;
+
+    >.error{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vmin;
+
+        >h1{
+        word-spacing: 0.4rem;
+        letter-spacing: 0.3rem;
+        color: black;
+
+        }
+
+        >h3{
+            text-align: center;
+            word-spacing: 0.4rem;
+            letter-spacing: 0.1rem;
+            color: black;
+        }
+    }
+}

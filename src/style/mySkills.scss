@@ -1,0 +1,212 @@
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    margin: 1rem 0.5rem 0 0.5rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    word-spacing: 0.3rem;
+    
+
+    >.skill-wrapper{
+        padding: 0.3rem;
+        display: flex;
+        flex-direction: column;
+        height: 100vmin; //vmin
+        justify-content: space-evenly;
+
+        >.skills{
+            display: flex;
+            height: auto;
+            width: 100%;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            >span{
+                color: grey;
+                align-self: center;
+                font-size: 1.3rem;
+                margin: 0.5rem;
+                font-family: "Robo";
+            }
+            >.skills-logi{
+               height: auto;
+               justify-content: center;
+
+               >img{
+                width: 6.8rem;
+               }
+            }
+        }
+
+        >.familiar-skills{
+            height: auto;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-content: center;
+
+            >span{
+                color: grey;
+                text-align: center;
+                font-size: 1.3rem;
+                margin: 0.5rem;
+                font-family: "Robo";
+                align-self: center;
+            }
+            >.skills-logi{
+               justify-content: center;
+               align-items: center;
+
+               >img{
+                width: 6.8rem;
+               }
+            }
+        }
+
+        >.tools{
+            height: auto;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            >span{
+                color: grey;
+                text-align: center;
+                font-size: 1.3rem;
+                margin: 0.5rem;
+                font-family: "Robo";
+                align-self: center;
+            }
+            >.skills-logi{
+            margin-left: 3rem;
+
+               >img{
+                width: 6.8rem;
+               }
+            } 
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+    section>.skill-wrapper{
+        >.skills>.skills-logi>img{
+            width: 4rem;
+        }
+        >.familiar-skills>.skills-logi>img{
+            width: 4rem;
+        }
+        >.tools>.skills-logi>img{
+            width: 4rem;
+        }
+    }
+}
+
+@media screen and (max-width:770px) {
+    section>.skill-wrapper{
+        // height: 80vmin;
+        >.skills{
+            >span{
+            font-size: 1rem;
+            }
+            >.skills-logi{
+            >img{
+            width: 3rem;  
+            }
+          }
+        }
+        >.familiar-skills{
+            >span{
+            font-size: 1rem;
+            }
+            >.skills-logi{
+            >img{
+            width: 3rem;  
+            }
+        }
+        }
+        >.tools{
+            >span{
+            font-size: 1rem;
+            }
+            >.skills-logi{
+            >img{
+            width: 3rem;  
+            }
+          }
+        }
+    }
+}
+
+@media screen and (max-width:570px) {
+    section>.skill-wrapper{
+        flex-direction: row;
+        flex-direction: row;
+        height: 100%;
+        >.skills{
+            padding-top: 1rem 0 0 -4rem;
+            flex-direction: column;
+            width: 33%;
+            align-items: center;
+            justify-content: flex-start;
+            >span{
+            font-size: 0.7rem;
+            height: fit-content;
+            }
+            >.skills-logi{
+            justify-content: start;
+            width: auto;
+            margin: 1.3rem;
+            >img{
+            width: 3rem;  
+            }
+          }
+        }
+        >.familiar-skills{
+            flex-direction: column;
+            height: auto;
+            width: 33%;
+            justify-content: start;
+            align-items: center;
+            >span{
+            font-size: 0.7rem;
+            height: fit-content;
+            }
+            >.skills-logi{
+            width: auto;
+            justify-content: start;
+            margin: 1rem;
+            >img{
+            width: 3rem;  
+            }
+          }
+        }
+        >.tools{
+            flex-direction: column;
+            height: auto;
+            width: 33%;
+            justify-content: start;
+            align-items: center;
+            >span{
+            font-size: 0.7rem;
+            height: fit-content;
+            
+            }
+            >.skills-logi{
+            width: auto;
+            justify-content: center;
+            margin: 1rem;
+            >img{
+            width: 3rem;  
+            }
+          }
+        }
+    }
+}
+
+@media screen and (max-width:400px) {
+    section{
+        height: 75vh;
+    }
+}
