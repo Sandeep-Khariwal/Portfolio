@@ -1,6 +1,5 @@
 import React, {useState , useEffect} from 'react';
 import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
-// import {BeatLoader , } from "react-spinners"
 import {BeatLoader  } from "react-spinners"
 
 //All routes are importes
@@ -28,7 +27,7 @@ function App() {
   const [loading , setLoading] = useState(true)
 
   useEffect(()=>{
-    setLoading(false)
+    setLoading(true)
     setTimeout(()=>{
       setLoading(false)
     }, 5000)
