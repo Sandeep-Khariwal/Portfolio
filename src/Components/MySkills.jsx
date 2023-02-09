@@ -16,7 +16,7 @@ import vsCode from "../images/vcode.png"
 
 const MySkills = () => {
   return (
-    <section>
+    <section className='skillsSection' >
       <motion.div className='skill-wrapper'
       initial={{y:"10%" , opacity:0}}
       whileInView={{y:"0%" , opacity:1}}

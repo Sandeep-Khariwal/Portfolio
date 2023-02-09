@@ -1,14 +1,15 @@
-section{
-    width: 100%;
+.skillsSection{
+    width: 98%;
     height: 100vh;
     background-color: white;
-    margin: 1rem 0.5rem 0 0.5rem;
+    margin: 1rem;
     border: 2px solid black;
     border-radius: 1rem;
     word-spacing: 0.3rem;
     
 
     >.skill-wrapper{
+        width: 100%;
         padding: 0.3rem;
         display: flex;
         flex-direction: column;
@@ -24,13 +25,14 @@ section{
             >span{
                 color: grey;
                 align-self: center;
+                // justify-content: space-between;
                 font-size: 1.3rem;
                 margin: 0.5rem;
                 font-family: "Robo";
             }
             >.skills-logi{
                height: auto;
-               justify-content: center;
+               justify-content: space-between;
 
                >img{
                 width: 6.8rem;
@@ -70,6 +72,7 @@ section{
             display: flex;
             flex-wrap: wrap;
             align-content: center;
+            // justify-content: space-between;
             >span{
                 color: grey;
                 text-align: center;
@@ -90,123 +93,175 @@ section{
 }
 
 @media screen and (max-width:1024px) {
-    section>.skill-wrapper{
-        >.skills>.skills-logi>img{
-            width: 4rem;
-        }
-        >.familiar-skills>.skills-logi>img{
-            width: 4rem;
-        }
-        >.tools>.skills-logi>img{
-            width: 4rem;
+    .skillsSection{
+        width: 95%;
+        >.skill-wrapper{
+            >.skills>.skills-logi>img{
+                width: 4rem;
+            }
+            >.familiar-skills>.skills-logi>img{
+                width: 4rem;
+            }
+            >.tools>.skills-logi>img{
+                width: 4rem;
+            }
         }
     }
 }
 
-@media screen and (max-width:770px) {
-    section>.skill-wrapper{
+@media screen and (max-width:800px) {
+    .skillsSection{ 
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    >.skill-wrapper{
         // height: 80vmin;
+        flex-direction: row;//
+        justify-content: flex-start;
+        // align-items: center;
+        margin-top: 1rem; //
         >.skills{
+            height: 100%;//
+            width: 33%;//
+            flex-direction: column;//
+            justify-content: flex-start;//
+            align-items: center;//
             >span{
             font-size: 1rem;
             }
             >.skills-logi{
             >img{
-            width: 3rem;  
+            width: 3rem; 
+            margin-top: 1.5rem; // 
             }
           }
         }
         >.familiar-skills{
+            height: 100%;//
+            width: 33%;//
+            flex-direction: column;//
+            justify-content: flex-start;//
+            align-items: center;//
             >span{
             font-size: 1rem;
             }
             >.skills-logi{
             >img{
-            width: 3rem;  
+            width: 3rem; 
+            margin-top: 1.5rem; //
             }
         }
         }
         >.tools{
+            height: 100%;//
+            width: 33%;//
+            flex-direction: column;//
+            justify-content: flex-start;//
+            align-items: center;//
             >span{
             font-size: 1rem;
             }
             >.skills-logi{
+                width: 70%;//
             >img{
-            width: 3rem;  
+            width: 3rem;
+            margin-top: 1.5rem; // 
             }
           }
         }
     }
+}
 }
 
-@media screen and (max-width:570px) {
-    section>.skill-wrapper{
-        flex-direction: row;
-        flex-direction: row;
-        height: 100%;
-        >.skills{
-            padding-top: 1rem 0 0 -4rem;
-            flex-direction: column;
-            width: 33%;
-            align-items: center;
-            justify-content: flex-start;
-            >span{
-            font-size: 0.7rem;
-            height: fit-content;
-            }
-            >.skills-logi{
-            justify-content: start;
-            width: auto;
-            margin: 0.9rem;
-            >img{
-            width: 3rem;  
-            }
-          }
-        }
-        >.familiar-skills{
-            flex-direction: column;
-            height: auto;
-            width: 33%;
-            justify-content: start;
-            align-items: center;
-            >span{
-            font-size: 0.7rem;
-            height: fit-content;
-            }
-            >.skills-logi{
-            width: auto;
-            justify-content: start;
-            margin: 1rem;
-            >img{
-            width: 3rem;  
-            }
-          }
-        }
-        >.tools{
-            flex-direction: column;
-            height: auto;
-            width: 33%;
-            justify-content: start;
-            align-items: center;
-            >span{
-            font-size: 0.7rem;
-            height: fit-content;
+// @media screen and (max-width:570px) {
+//     .skillsSection>.skill-wrapper{
+//         flex-direction: row;
+//         flex-direction: row;
+//         height: 100%;
+//         >.skills{
+//             padding-top: 1rem 0 0 -4rem;
+//             flex-direction: column;
+//             width: 33%;
+//             align-items: center;
+//             justify-content: flex-start;
+//             >span{
+//             font-size: 0.7rem;
+//             height: fit-content;
+//             }
+//             >.skills-logi{
+//             justify-content: start;
+//             width: auto;
+//             margin: 0.9rem;
+//             >img{
+//             width: 3rem;  
+//             }
+//           }
+//         }
+//         >.familiar-skills{
+//             flex-direction: column;
+//             height: auto;
+//             width: 33%;
+//             justify-content: start;
+//             align-items: center;
+//             >span{
+//             font-size: 0.7rem;
+//             height: fit-content;
+//             }
+//             >.skills-logi{
+//             width: auto;
+//             justify-content: start;
+//             margin: 1rem;
+//             >img{
+//             width: 3rem;  
+//             }
+//           }
+//         }
+//         >.tools{
+//             flex-direction: column;
+//             height: auto;
+//             width: 33%;
+//             justify-content: start;
+//             align-items: center;
+//             >span{
+//             font-size: 0.7rem;
+//             height: fit-content;
             
-            }
-            >.skills-logi{
-            width: auto;
-            justify-content: center;
-            margin: 1rem;
-            >img{
-            width: 3rem;  
-            }
-          }
-        }
-    }
-}
+//             }
+//             >.skills-logi{
+//             width: auto;
+//             justify-content: center;
+//             margin: 1rem;
+//             >img{
+//             width: 3rem;  
+//             }
+//           }
+//         }
+//     }
+// }
 
 @media screen and (max-width:450px) {
-    section>.skill-wrapper{
-        padding-top: 2rem;
+    .skillsSection{
+        margin: 1rem 0 0 0;
+        padding: 0;
+        border-radius: 0;
+        height: 100vh;
+        width: 100%;
+        >.skill-wrapper{
+            // padding-top: 2rem;
+            // justify-content: center;
+            // align-items: center;
+            // padding: 0;
+            height: 100%;
+            width: 100%;
+            >.skills>.skills-logi>img{
+                margin-top: 3rem;
+            }
+            >.familiar-skills>.skills-logi>img{
+                margin-top: 3rem;
+            }
+            >.tools>.skills-logi>img{
+                margin-top: 3rem;
+            }
+        }
     }
 }

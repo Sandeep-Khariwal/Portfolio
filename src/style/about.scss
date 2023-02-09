@@ -1,8 +1,8 @@
-section{
+.aboutme{
     padding: 0;
-        width: 98%;
+        width: 100%;
         height: 100vmin;
-        margin: 1rem ;
+        margin: 1rem 0.5rem 1rem 0 ;
         background-color: #fff;
         border: 2px solid black;
         border-radius: 1rem;
@@ -73,16 +73,20 @@ section{
 }
 
 @media screen and (max-width:1200px) {
-    section{
-        width: 93%;
+    .aboutme{
+        width: 98%;
+
         >.about{
-        display: contents;
+        // display: contents;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         >.pic1{
             width: 100%;
             height: 50%;
+            justify-content: center;
             >img{
-            width: 15rem;
+            width: 18rem;
           }
         }
         >.story{
@@ -103,7 +107,7 @@ section{
 
             >.content{
             justify-content: center;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             padding: 0 0.5rem 0 0.5rem;
             }
         }
@@ -111,19 +115,21 @@ section{
    }
 }
 
-@media screen and (max-width:580px) {
-    section>.about{
+@media screen and (max-width:600px) {
+    .aboutme>.about{
         
         >.pic1{
-            height: 60%;
+            height: 55%;
+            margin: 0;
+            padding: 0;
             >img{
-            width: 13.5rem;
-            box-shadow:  0rem 0rem 0.3rem 0.3rem rgba(1,1,1,0.3);
+            width: 13rem;
+            // box-shadow:  0rem 0rem 0.3rem 0.3rem rgba(1,1,1,0.3);
             }
         }
         >.story{
             height: 45%;
-            justify-content: flex-end;
+            justify-content: flex-start;
             >.content{
             justify-content: end;
             font-size: 0.8rem;
@@ -133,16 +139,19 @@ section{
 }
 
 @media screen and (max-width:450px) {
-    section{
+    .aboutme{
         
         margin: 1rem 0 0 0;
         padding-top: 1rem;
         width: 98%;
-        height: 90vh;
+        height: 100vh;
         border-radius: 0rem;
         >.about{
+            height: 100%;
+        flex-direction: column;
         >.pic1{
         height: 50%;
+        justify-content: center;
         >img{
         width: 17rem;
         }

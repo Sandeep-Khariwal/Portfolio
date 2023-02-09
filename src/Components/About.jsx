@@ -6,7 +6,7 @@ import img2 from "../images/pic2.jpg"
 const About = () => {
 
   return (
-    <section>
+    <section className='aboutme' >
      <div className='about'>
      <motion.div className='pic1'
       initial={{y:"10%" , opacity:0}}
