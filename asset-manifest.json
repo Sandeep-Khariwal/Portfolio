@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf252518.css",
-    "main.js": "/static/js/main.70b2e777.js",
-    "static/media/myResume.pdf": "/static/media/myResume.260d1768b32ff07f91b9.pdf",
-    "static/media/pic2.jpg": "/static/media/pic2.bb45ab6431f671179287.jpg",
-    "static/media/todo.jpg": "/static/media/todo.bcb1ae4a5aae83208336.jpg",
-    "static/media/react.jpg": "/static/media/react.533021ffc7218508fbf3.jpg",
-    "static/media/myImage.jpg": "/static/media/myImage.fc6f3c004e20166dd286.jpg",
-    "static/media/pic1.jpg": "/static/media/pic1.0381b20e7c189c178fe4.jpg",
-    "static/media/vcode.png": "/static/media/vcode.bd01faa13b32d715021e.png",
-    "static/media/calculator.webp": "/static/media/calculator.140afa35cf6085f65d41.webp",
-    "static/media/reduxtoolkit.jpeg": "/static/media/reduxtoolkit.d89273df623246554f62.jpeg",
-    "static/media/cover.jfif": "/static/media/cover.e2edeab17643ab2951c0.jfif",
-    "static/media/nodexpressjs.webp": "/static/media/nodexpressjs.eec070947d9dff2d21a3.webp",
-    "static/media/github.webp": "/static/media/github.f18a30b26c0f612b68ad.webp",
-    "static/media/mongodb.webp": "/static/media/mongodb.c38cd70da656f9a39820.webp",
-    "index.html": "/index.html",
-    "main.cf252518.css.map": "/static/css/main.cf252518.css.map",
-    "main.70b2e777.js.map": "/static/js/main.70b2e777.js.map"
+    "main.css": "/Portfolio/static/css/main.0258a993.css",
+    "main.js": "/Portfolio/static/js/main.39d542d1.js",
+    "static/media/myResume.pdf": "/Portfolio/static/media/myResume.260d1768b32ff07f91b9.pdf",
+    "static/media/pic2.jpg": "/Portfolio/static/media/pic2.bb45ab6431f671179287.jpg",
+    "static/media/todo.jpg": "/Portfolio/static/media/todo.bcb1ae4a5aae83208336.jpg",
+    "static/media/react.jpg": "/Portfolio/static/media/react.533021ffc7218508fbf3.jpg",
+    "static/media/myImage.jpg": "/Portfolio/static/media/myImage.fc6f3c004e20166dd286.jpg",
+    "static/media/pic1.jpg": "/Portfolio/static/media/pic1.0381b20e7c189c178fe4.jpg",
+    "static/media/vcode.png": "/Portfolio/static/media/vcode.bd01faa13b32d715021e.png",
+    "static/media/calculator.webp": "/Portfolio/static/media/calculator.140afa35cf6085f65d41.webp",
+    "static/media/reduxtoolkit.jpeg": "/Portfolio/static/media/reduxtoolkit.d89273df623246554f62.jpeg",
+    "static/media/cover.jfif": "/Portfolio/static/media/cover.e2edeab17643ab2951c0.jfif",
+    "static/media/nodexpressjs.webp": "/Portfolio/static/media/nodexpressjs.eec070947d9dff2d21a3.webp",
+    "static/media/github.webp": "/Portfolio/static/media/github.f18a30b26c0f612b68ad.webp",
+    "static/media/mongodb.webp": "/Portfolio/static/media/mongodb.c38cd70da656f9a39820.webp",
+    "index.html": "/Portfolio/index.html",
+    "main.0258a993.css.map": "/Portfolio/static/css/main.0258a993.css.map",
+    "main.39d542d1.js.map": "/Portfolio/static/js/main.39d542d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf252518.css",
-    "static/js/main.70b2e777.js"
+    "static/css/main.0258a993.css",
+    "static/js/main.39d542d1.js"
   ]
 }
