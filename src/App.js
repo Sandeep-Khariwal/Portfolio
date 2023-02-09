@@ -8,7 +8,7 @@ import Footer from './Components/Footer';
 import About from './Components/About';
 import MySkills from './Components/MySkills';
 import Projects from './Components/Projects';
-import Error from './Components/Error';
+// import Error from './Components/Error';
 
 // All CSS files are imported
 import "./style/item.scss"
@@ -18,7 +18,7 @@ import "./style/homeComponent.scss"
 import "./style/mySkills.scss"
 import "./style/Projects.scss"
 import "./style/about.scss"
-import "./style/error.scss"
+// import "./style/error.scss"
 import "./style/App.scss"
 
 
@@ -48,7 +48,7 @@ function App() {
         <Route exact path='/About' element={<About/>} />
         <Route exact path='/Skills' element={<MySkills/>}/>
         <Route exact path='/Projects' element={<Projects/>}/>
-        <Route path='*' element={<Error/> } ></Route>
+        {/* <Route path='*' element={<Error/> } ></Route> */}
         </Route>
       </Routes>
       <Footer/>

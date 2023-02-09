@@ -10,7 +10,7 @@ import cart from "../images/cart.png"
 
 const Projects = () => {
   return (
-    <section>
+    <section className='myProjects' >
       <h1>MY PROJECT'S</h1>
       <motion.div className='projects'
       initial={{y:"20%" , opacity:0}}

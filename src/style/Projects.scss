@@ -1,4 +1,4 @@
-section{
+.myProjects{
     margin: 0;
     padding: 0;
     display: flex;
@@ -29,8 +29,7 @@ section{
         display: flex;
         flex-direction: column;
         background-color: white;
-        box-shadow: 0 0 0.5rem #333;
-        box-shadow: rgb(25,25,255);
+        box-shadow: 0.5rem 0.5rem 0.5rem rgba(3,3,3,0.7);
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem;
         transition: 1s all;
@@ -58,7 +57,7 @@ section{
 
 
 @media screen and (max-width:650px) {
-    section>.projects>.project{
+    .myProjects>.projects>.project{
     height: 7rem;
     width: 7rem;
     >img{
@@ -72,7 +71,7 @@ section{
 }
 
 @media screen and (max-width:500px) {
-    section>.projects>.project{
+    .myProjects>.projects>.project{
     height: 5rem;
     width: 5rem;
     >img{
@@ -86,8 +85,32 @@ section{
 }
 
 @media screen and (max-width:450px) {
-    section>.projects{
-    justify-content: space-around;
-  }
+    .myProjects{
+      height: 150vh;
+      width: 100%;
+      margin: 1rem 0 0 0;
+      >h1{
+        padding-top: 2rem;
+      }
+      >.projects{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 150vh;
+    
+        >.project{
+          height: 10rem;
+          width: 15rem;
+          >img{
+            height:60%;
+            width: 100%;
+          }
+          >h5{
+            height:40%;
+            width: 100%;
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
 }
 

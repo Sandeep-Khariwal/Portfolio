@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Sandeep-Khariwal.github.io/Portfolio",
+  "homepage": "https://Sandeep-Khariwal.github.io/",
   "dependencies": {
     "@emotion/core": "^10.1.1",
     "@emotion/react": "^11.10.5",

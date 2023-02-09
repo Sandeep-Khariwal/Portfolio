@@ -157,7 +157,7 @@ section{
             >.skills-logi{
             justify-content: start;
             width: auto;
-            margin: 1.3rem;
+            margin: 0.9rem;
             >img{
             width: 3rem;  
             }
@@ -205,8 +205,8 @@ section{
     }
 }
 
-@media screen and (max-width:400px) {
-    section{
-        height: 75vh;
+@media screen and (max-width:450px) {
+    section>.skill-wrapper{
+        padding-top: 2rem;
     }
 }

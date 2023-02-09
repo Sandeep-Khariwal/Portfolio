@@ -22,10 +22,7 @@ section{
         justify-content: center;
         align-items: center;
         
-        // filter: drop-shadow(rgb(1,1,1));
-        
         >img{
-        // height: 28rem;
         width: 23rem;
         position: absolute;
         border-radius: 1rem;
@@ -45,7 +42,7 @@ section{
         animation:normal ;  
         }
       }
-      >h3{
+      >h4{
         z-index: 1;
       }
     }
@@ -77,7 +74,6 @@ section{
 
 @media screen and (max-width:1200px) {
     section{
-        // margin: 1rem 0;
         width: 93%;
         >.about{
         display: contents;
@@ -86,7 +82,6 @@ section{
             width: 100%;
             height: 50%;
             >img{
-            // height: 22rem;
             width: 15rem;
           }
         }
@@ -96,7 +91,6 @@ section{
             height: 50%;
             padding: 0 0.5rem 0 0.5rem;
             align-items: center;
-            // justify-content: end;
 
             >p{
             margin-block-start: 0.1em;
@@ -123,7 +117,6 @@ section{
         >.pic1{
             height: 60%;
             >img{
-            // height: 19.5rem;
             width: 13.5rem;
             box-shadow:  0rem 0rem 0.3rem 0.3rem rgba(1,1,1,0.3);
             }
@@ -131,10 +124,6 @@ section{
         >.story{
             height: 45%;
             justify-content: flex-end;
-
-            // >h1{
-            //     font-size: 1rem;
-            // }
             >.content{
             justify-content: end;
             font-size: 0.8rem;
@@ -153,18 +142,19 @@ section{
         border-radius: 0rem;
         >.about{
         >.pic1{
-        height: 45%;
+        height: 50%;
         >img{
-        width: 13rem;
+        width: 17rem;
         }
         }
         >.story{
-        height: 65%;
+        height: 50%;
         width: 98%;
         padding-block: 0.5rem;
-        justify-content: center;
+        justify-content: flex-start;
 
         >.content{
+            height: 100%;
             font-size: 1rem;
         }
            
@@ -172,99 +162,9 @@ section{
     }
 }
 }
-// @media screen and (max-width:800px) {
-//     section>.about{
-//         >.pic1>img{
-//         height: 20rem;
-//         width: 17rem;
-//         }
-//     >.story{
-//         justify-content: start;
-//         font-size: 1rem;
-//         width: 95%;
-//         >.myStory{
-//         margin-block-start: 0;
-//         margin-block-end:0;
-//         }
-//         >.h2{
-//             font-size: 1em;
-//             margin-block-start: 0em;
-//             margin-block-end: 0em;
-//         }
-//         >.content{
-//             word-spacing: 0.1rem;
-//             font-size: 0.7rem;
-//             padding: 0;
-//             font-size: 1.1rem;
-//         }
-//     }
-// }
-// }
 
-// @media screen and (max-width:680px) {
-//     section>.about{
-//         >.pic1{
-//             height: 60%; 
-//             >img{
-//             height: 15rem;
-//             width: 13rem;
-//             }
-//         }
-//         >.story{
-//             justify-content: center;
-//             >.content{
-//             font-size: 0.8rem;
-//             }
-//         }
-//     }
-// }
-
-// @media screen and (max-width:450px){
-//     section{
-//         margin: 0.8rem 0 0 0 ;
-//         height: 80vh;
-//         border-radius: 0%;
-//         >.about{
-//         height: 100%;
-//         justify-content: space-around;
-//         >.pic1{
-//         height: 45%;
-//         padding-top: 1rem;
-//         }
-//         >.story{
-//             height: 100%;
-//             width: 100%;
-//             padding-top: 1rem;
-//             justify-content: flex-end;
-//             padding: 1;
-           
-//             >.myStory{
-//             padding: 0 0.3rem 0 0.7rem;
-//             }
-            
-//             >.content{
-//                 word-spacing: 0.2rem;
-//                 height: 100%;
-//                 padding-right: 1rem;
-//                 font-size: 1rem;
-//                 justify-content: end;
-//             }
-//         }
-//     }
-// }
-// }
-
-// @media screen and (max-width:300px) {
-//     section>.about{
-//         >.pic1{
-//           padding-top: 0.5rem;
-//           justify-content: center;
-//         }
-//         >.story{
-//             >.content{
-//                 font-size: 0.9rem;
-//                 word-spacing: 0.1rem;
-//             }
-//         }
-//     }
-// }
+@media screen and (max-width:300px) {
+    section>.about>.pic1>img{
+        width: 15rem;
+    }
+}

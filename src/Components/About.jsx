@@ -15,7 +15,7 @@ const About = () => {
       >
         <img src={img2} alt="not supporting" />
         <img src={img1} alt="not supporting" />
-        <h3>Click Here</h3>
+        <h4>Click on Edge</h4>
       </motion.div>
    
       <motion.div className='story'

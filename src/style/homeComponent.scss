@@ -62,15 +62,16 @@
 
 @media screen and (max-width:450px) {
   .banner{
-    height: 70vh;
+    height: 100vh;
     margin: 0.8rem 0 0 0 ;
     border-radius: 0;
 
     > h3 {
-    margin-top: 2.5rem;
+    margin-top: 1rem;
+   
     }
     >h4{
-      padding-top: 4rem;
+      padding-top: 8rem;
     }
     >a>button{
       width: 7rem;
@@ -87,7 +88,7 @@
 
 @media screen and (max-width:300px) {
   .banner{
-    height: 60vh;
+    height: 100vh;
     > h3 {
       margin-top: 2.5rem;
       >span{
