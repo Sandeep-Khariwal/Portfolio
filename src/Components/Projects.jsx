@@ -1,6 +1,5 @@
 import React from 'react'
 import {motion} from "framer-motion"
-import {Link} from "react-router-dom"
 
 import crud from "../images/crud.jpg"
 import apc from "../images/ApcLogo.jpg"
@@ -20,28 +19,28 @@ const Projects = () => {
        
        <div className='project' >
         <img src={crud} alt='not supported'/>
-        <h5><Link to="https://sandeep-khariwal.github.io/CRUD-App/" >CRUD/MERN</Link></h5>
+        <h5><a href="https://sandeep-khariwal.github.io/CRUD-App/" >CRUD/MERN</a></h5>
        </div>
        
 
        <div className='project' >
         <img src={todo} alt='not supported'/>
-        <h5><Link to="https://sandeep-khariwal.github.io/ToDo-List/" >ToDo-List/ReactJs</Link></h5>
+        <h5><a href="https://sandeep-khariwal.github.io/ToDo-List/" >ToDo-List/ReactJs</a></h5>
        </div>
 
        <div className='project' >
         <img src={calculator} alt='not supported'/>
-        <h5><Link to="https://sandeep-khariwal.github.io/Calculator-with-React/" >Calculator/React</Link></h5>
+        <h5><a href="https://sandeep-khariwal.github.io/Calculator-with-React/" >Calculator/React</a></h5>
        </div>
 
        <div className='project' >
         <img src={apc} alt='not supported'/>
-        <h5><Link to="https://sandeep-khariwal.github.io/APC-Society/" >Society Website</Link></h5>
+        <h5><a href="https://sandeep-khariwal.github.io/APC-Society/" >Society Website</a></h5>
        </div>
 
        <div className='project' >
         <img src={cart} alt='not supported'/>
-        <h5><Link to="https://sandeep-khariwal.github.io/Add-To-Cart/" >Cart-Redux/Toolkit</Link></h5>
+        <h5><a href="https://sandeep-khariwal.github.io/Add-To-Cart/" >Cart-Redux/Toolkit</a></h5>
        </div>
 
       </motion.div>

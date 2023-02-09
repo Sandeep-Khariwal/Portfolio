@@ -1,7 +1,10 @@
-section{
+.errorSection{
     display: flex;
+    background-color: white;
+    margin: 1rem 0.5rem 0 0 ;
 
     >.error{
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -16,7 +19,6 @@ section{
         }
 
         >h3{
-            text-align: center;
             word-spacing: 0.4rem;
             letter-spacing: 0.1rem;
             color: black;
